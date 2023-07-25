@@ -1,7 +1,7 @@
 # COVID19_Project_CNN
 
 The project is a CNN classifier which classifies patients from XRAY scans as one of four: [healthy, covid-19, lung opacity, penmounia]
-We used a dataset found at [7] for this project. It consists of Chest X-Ray (CXR) images of 3616 COVID-19 positive patients, 10,192 normal people, 6012 lung opacity patients,
+We used a dataset found at (https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database) for this project. It consists of Chest X-Ray (CXR) images of 3616 COVID-19 positive patients, 10,192 normal people, 6012 lung opacity patients,
 1345 viral pneumonia patients. All the images were in grey scale with a resolution of 299×299 pixels. We selected 1000 CXR images for each class, to prevent the class imbalance problem, faster model tuning, and training. Then, the selected images were split into train, validation, and test sets with the ratio of 0.7 : 0.15 : 0.15. During the data set analysis, we notices discrepancies in CXR images such as manually printed labels on the images, distortions due to imperfect scans, and capture of irrelevant body parts (E.g chin, neck). Therefore, we selected only well scanned images to ensure fair training, testing process.
 
 In general, grid search method, and random search method are used for hyper-parameter tuning. In grid search method, all the combinations of all hyper parameters are considered and

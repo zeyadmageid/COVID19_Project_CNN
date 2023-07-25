@@ -9,4 +9,4 @@ In this project,hyperparameter tuning and transfer learning were used and compar
 
 The performance of the pretrained model (MobileNetV2) yielded very similar accuracy compared to the tuned CNN at a fraction of the required training time due to the fact that the pretrained model did not require hyperparameter tuning. 
 
-For more detaisl about the project, please read the attached PDF file which shows the overall project report.
+For more detaisl about the project, please read the attached PDF file which shows the overall project report findings.
